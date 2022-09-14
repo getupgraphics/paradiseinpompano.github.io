@@ -1,0 +1,125 @@
+*{ box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family: 'AckermannMedium';
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+
+
+a {
+  color: #5C2C20;
+  font-weight: bold;
+float: left;
+}
+
+h1{font-size:2em;
+  font-weight: bold;
+  margin: 10px 0;
+line-height: normal;
+
+ }
+.nav{float:right; }
+
+ .navbar ul {
+   display: flex;
+   justify-content: space-between;
+   text-align: right;
+ }
+
+.navbar{background-color: #596B79aa;
+height: 10%;
+padding: 0 3rem;
+
+}
+
+.navbar .flex{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  height: 100%;
+}
+
+
+.about{
+  text-align: center;
+  width: 50%;
+  margin:auto;
+
+}
+
+
+
+body{background-image: linear-gradient(#64A5E5, #056178);
+height:100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+
+.top_banner{
+background-repeat: no-repeat;
+text-align:center;
+height: auto;
+margin-bottom: 40px;
+margin-top: 20px;
+}
+
+
+
+
+
+.row{ display: flex;
+  margin-bottom: 5%;
+}
+
+.columna{width:100%;
+
+  height: auto;
+
+}
+
+.columnb{width: 100%;
+height: auto;
+padding: 5px;
+}
+
+
+.columnc{width: 100%;
+height: auto;}
+
+
+
+.btm_section{
+text-align: center;
+border-top: dotted 5px black;
+margin: auto;
+}
+
+
+#h{font-size: 25px;
+margin-top: 2rem;
+font-weight: bold;
+text-decoration: underline;}
+
+
+
+.athenapic{width: 30%;
+  margin-top: 2rem;
+height: auto;
+
+float: left;
+}
+
+
+
+.textathena{float: right;
+margin-top: 3rem;
+width: 20%;
+margin-right: 30%;
+
+
+}
